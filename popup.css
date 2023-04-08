@@ -1,0 +1,125 @@
+/* Reset browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+body {
+  width: 720px;
+  min-height: 280px;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: #21ff2b;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #21ff2b;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #21ff2b;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Text input */
+.input {
+  font-size: 16px;
+  padding: 12px;
+  border: 2px solid #21ff2b;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  color: #21ff2b;
+  background-color: #1c1c1c;
+}
+
+input[type="text"]:focus {
+  border-color: #21ff2b;
+}
+
+/* Button */
+.button-wrapper {
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c1c1c;
+  background-color: #21ff2b;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #15cc22;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fact-checking result */
+#factResult {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Spinner container */
+.hidden {
+  display: none !important;
+}
+
+#spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Loading spinner */
+.spinner {
+  margin-top: 24px;
+  width: 48px;
+  height: 48px;
+}
+
+pre {
+  background-color: #0f0f0f;
+  border-radius: 4px;
+  padding: 8px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 14px;
+  color: #21ff2b;
+  padding: 8px;
+}
+
+.simpleButton {
+  margin-top: 12px;
+  cursor: pointer;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #21ff2b;
+  width: 9%;
+}

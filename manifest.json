@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "GPT Code Monkey",
+  "version": "1.0",
+  "description": "Generate solutions for your problems in your specified programming language",
+  "permissions": ["activeTab", "contextMenus"],
+  "browser_action": {
+    "default_icon": "app_icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": { "48": "icon.svg" }
+}
